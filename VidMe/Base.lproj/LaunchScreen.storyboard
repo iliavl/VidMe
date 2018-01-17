@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ninja_swift.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYd-Xb-cYb">
+                                <rect key="frame" x="57.5" y="206" width="260" height="254"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="254" id="Jo8-mf-Pxk"/>
+                                    <constraint firstAttribute="width" constant="260" id="s8r-pO-P55"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vidme-logo-big.png" translatesAutoresizingMaskIntoConstraints="NO" id="xwh-9J-H6A">
+                                <rect key="frame" x="55.5" y="245" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="RKW-GQ-RIW"/>
+                                    <constraint firstAttribute="height" constant="128" id="qbp-BC-WVY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294117647056" green="0.15294117647058825" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="tYd-Xb-cYb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="9oZ-xf-9t2"/>
+                            <constraint firstItem="tYd-Xb-cYb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TKw-pn-fRA"/>
+                            <constraint firstItem="tYd-Xb-cYb" firstAttribute="top" secondItem="xwh-9J-H6A" secondAttribute="bottom" constant="-167" id="msr-n4-Igg"/>
+                            <constraint firstItem="tYd-Xb-cYb" firstAttribute="leading" secondItem="xwh-9J-H6A" secondAttribute="trailing" constant="-238" id="pec-ft-qRZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ninja_swift.png" width="300" height="300"/>
+        <image name="vidme-logo-big.png" width="1264" height="311"/>
+    </resources>
+</document>

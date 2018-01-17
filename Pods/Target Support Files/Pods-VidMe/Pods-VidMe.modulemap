@@ -1,0 +1,6 @@
+framework module Pods_VidMe {
+  umbrella header "Pods-VidMe-umbrella.h"
+
+  export *
+  module * { export * }
+}

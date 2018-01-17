@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.jsonLoader.dataForTable">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HttpOperation.(Login() -&gt; ()).(closure #1):HttpOperation.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "value[&quot;status&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoListView.buttonClickSaveToDB(sender : UIButton) -&gt; ():VideoListView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "videos[0].name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoListView.loadJsonInTable() -&gt; ():VideoListView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "vidMeNew">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewVideoViewController.(loadDataJsonNewVideo() -&gt; ()).(closure #1):NewVideoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.vidMeNew">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "JsonOperation.(loadDataJsonNewVideo(urlString : String, table : UITableView) -&gt; [VideoCellAttribute]).(closure #1):JsonOperation.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "table">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoListView.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:VideoListView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "vidMeArray[7]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoListView.vidMeArray.getter:VideoListView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "vidMeArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoListView.(tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ()).(closure #1):VideoListView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "videoURL">
+            </PersistentString>
+            <PersistentString
+               value = "vidMeArray[indexPath.row].videoUrl">
+            </PersistentString>
+            <PersistentString
+               value = "vidMeArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RegisterViewController.(Login() -&gt; ()).(closure #1):RegisterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.result.value[0]">
+            </PersistentString>
+            <PersistentString
+               value = "value">
+            </PersistentString>
+            <PersistentString
+               value = "Alamofire">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LogOutView.loadFromNib() -&gt; UIView:LogOutView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nibName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "JsonOperation.(loadDataJsonNewVideo(urlString : String, completion : ([VideoCellAttribute]) -&gt; ()) -&gt; ()).(closure #1):JsonOperation.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "video[&quot;title&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RegisterViewController.Login() -&gt; ():RegisterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Constants.shared.accessToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HttpOperation.Login() -&gt; ():HttpOperation.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;https://api.vid.me/auth/create?username=\(user)&amp;password=\(password)&quot;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoListView.tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ():VideoListView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "vidMeArray[indexPath.row].videoUrl">
+            </PersistentString>
+            <PersistentString
+               value = "vidMeArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

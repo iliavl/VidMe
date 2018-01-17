@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "NewVideoViewController.(loadDataJsonNewVideo() -&gt; ()).(closure #1):NewVideoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FeaturedViewController.(loadDataJsonNewVideo() -&gt; ()).(closure #1):FeaturedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.vidMeNew">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewVideoCell.configure(id : String, title : String, thumbnailUrl : String, videoUrl : String) -&gt; ():NewVideoCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textViewTitle.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RegisterViewController.Login() -&gt; ():RegisterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "urlConnection">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

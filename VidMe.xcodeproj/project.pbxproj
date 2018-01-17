@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E17D2A91F3DD82C00DC9ECF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17D2A81F3DD82C00DC9ECF /* Constants.swift */; };
+		5E17D2AD1F3DF6AA00DC9ECF /* LogOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17D2AC1F3DF6AA00DC9ECF /* LogOutView.swift */; };
+		5E476F381F72A6250057A42C /* TableViewControllerFollow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E476F371F72A6250057A42C /* TableViewControllerFollow.swift */; };
+		5E476F3A1F87BBCA0057A42C /* TableViewControllerTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E476F391F87BBCA0057A42C /* TableViewControllerTop.swift */; };
+		5E476F3C1F8BB4800057A42C /* help.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E476F3B1F8BB4800057A42C /* help.strings */; };
+		5E78D5611F4B6C3F00B9C8FC /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E78D5601F4B6C3F00B9C8FC /* DataBase.swift */; };
+		5E78D5631F4B75D800B9C8FC /* videosRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E78D5621F4B75D800B9C8FC /* videosRealm.swift */; };
+		5EED45821F3E7EC400032C05 /* LogOutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EED45811F3E7EC400032C05 /* LogOutView.xib */; };
+		5EED45861F3F983600032C05 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45851F3F983600032C05 /* VideoListView.swift */; };
+		5EED45881F4195F300032C05 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EED45871F4195F300032C05 /* VideoCell.xib */; };
+		5EED458A1F41982700032C05 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45891F41982700032C05 /* VideoCell.swift */; };
+		5EED458D1F431F3700032C05 /* HttpOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED458C1F431F3700032C05 /* HttpOperation.swift */; };
+		5EED458F1F4320FD00032C05 /* JsonOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED458E1F4320FD00032C05 /* JsonOperation.swift */; };
+		5EED45911F43282900032C05 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45901F43282900032C05 /* Structure.swift */; };
+		5EED45931F449CEF00032C05 /* TableViewControllerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45921F449CEF00032C05 /* TableViewControllerNew.swift */; };
+		5EED45BF1F4708FB00032C05 /* VidMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45BD1F4708FB00032C05 /* VidMe.swift */; };
+		5EED45C41F47196600032C05 /* VidMe.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45C31F47196600032C05 /* VidMe.xcdatamodel */; };
+		5EEE8D6D1F38AC8800C5FD4B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE8D6C1F38AC8800C5FD4B /* RegisterViewController.swift */; };
+		5EEE8D721F39AFE900C5FD4B /* ninja_swift.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EEE8D711F39AFE900C5FD4B /* ninja_swift.png */; };
+		5EEE8D741F39B09E00C5FD4B /* vidme-logo-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EEE8D731F39B09E00C5FD4B /* vidme-logo-big.png */; };
+		5EFCE21C1F308DBE008CAF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCE21B1F308DBE008CAF5D /* AppDelegate.swift */; };
+		5EFCE21E1F308DBE008CAF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCE21D1F308DBE008CAF5D /* ViewController.swift */; };
+		5EFCE2211F308DBE008CAF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFCE21F1F308DBE008CAF5D /* Main.storyboard */; };
+		5EFCE2261F308DBE008CAF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFCE2251F308DBE008CAF5D /* Assets.xcassets */; };
+		5EFCE2291F308DBE008CAF5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFCE2271F308DBE008CAF5D /* LaunchScreen.storyboard */; };
+		5EFCE2351F30B954008CAF5D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFCE2331F30B954008CAF5D /* AVFoundation.framework */; };
+		5EFCE2361F30B954008CAF5D /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFCE2341F30B954008CAF5D /* AVKit.framework */; };
+		A2ACE47FAC12DF3FFC3B2023 /* Pods_VidMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A8E60E6024BB242C6DCB7E /* Pods_VidMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		293CF013666759A1A57A7CE3 /* Pods-VidMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-VidMe/Pods-VidMe.release.xcconfig"; sourceTree = "<group>"; };
+		2FC31CF86DD7664DBDEFEB5D /* Pods-VidMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VidMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VidMe/Pods-VidMe.debug.xcconfig"; sourceTree = "<group>"; };
+		37A8E60E6024BB242C6DCB7E /* Pods_VidMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VidMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E17D2A81F3DD82C00DC9ECF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5E17D2AC1F3DF6AA00DC9ECF /* LogOutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutView.swift; sourceTree = "<group>"; };
+		5E476F371F72A6250057A42C /* TableViewControllerFollow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewControllerFollow.swift; path = ../TableViewControllerFollow.swift; sourceTree = "<group>"; };
+		5E476F391F87BBCA0057A42C /* TableViewControllerTop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewControllerTop.swift; path = ../TableViewControllerTop.swift; sourceTree = "<group>"; };
+		5E476F3B1F8BB4800057A42C /* help.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = help.strings; sourceTree = "<group>"; };
+		5E78D5601F4B6C3F00B9C8FC /* DataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		5E78D5621F4B75D800B9C8FC /* videosRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = videosRealm.swift; path = ../videosRealm.swift; sourceTree = "<group>"; };
+		5EED45811F3E7EC400032C05 /* LogOutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogOutView.xib; path = ../LogOutView.xib; sourceTree = "<group>"; };
+		5EED45851F3F983600032C05 /* VideoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		5EED45871F4195F300032C05 /* VideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VideoCell.xib; path = ../VideoCell.xib; sourceTree = "<group>"; };
+		5EED45891F41982700032C05 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		5EED458C1F431F3700032C05 /* HttpOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpOperation.swift; sourceTree = "<group>"; };
+		5EED458E1F4320FD00032C05 /* JsonOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonOperation.swift; sourceTree = "<group>"; };
+		5EED45901F43282900032C05 /* Structure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
+		5EED45921F449CEF00032C05 /* TableViewControllerNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewControllerNew.swift; path = ../TableViewControllerNew.swift; sourceTree = "<group>"; };
+		5EED45BD1F4708FB00032C05 /* VidMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VidMe.swift; sourceTree = "<group>"; };
+		5EED45C31F47196600032C05 /* VidMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = VidMe.xcdatamodel; path = VidMe.xcdatamodeld/VidMe.xcdatamodel; sourceTree = "<group>"; };
+		5EEE8D6C1F38AC8800C5FD4B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5EEE8D711F39AFE900C5FD4B /* ninja_swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninja_swift.png; sourceTree = "<group>"; };
+		5EEE8D731F39B09E00C5FD4B /* vidme-logo-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vidme-logo-big.png"; sourceTree = "<group>"; };
+		5EFCE2181F308DBE008CAF5D /* VidMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFCE21B1F308DBE008CAF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EFCE21D1F308DBE008CAF5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EFCE2201F308DBE008CAF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EFCE2251F308DBE008CAF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EFCE2281F308DBE008CAF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EFCE22A1F308DBE008CAF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFCE2331F30B954008CAF5D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5EFCE2341F30B954008CAF5D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EFCE2151F308DBE008CAF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFCE2351F30B954008CAF5D /* AVFoundation.framework in Frameworks */,
+				5EFCE2361F30B954008CAF5D /* AVKit.framework in Frameworks */,
+				A2ACE47FAC12DF3FFC3B2023 /* Pods_VidMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E78D55F1F4B6BED00B9C8FC /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				5E78D5621F4B75D800B9C8FC /* videosRealm.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		5EED458B1F419BCB00032C05 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				5EED45811F3E7EC400032C05 /* LogOutView.xib */,
+				5EED45871F4195F300032C05 /* VideoCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		5EEE8D6E1F38AD4B00C5FD4B /* FeaturedVideos */ = {
+			isa = PBXGroup;
+			children = (
+				5E476F391F87BBCA0057A42C /* TableViewControllerTop.swift */,
+			);
+			path = FeaturedVideos;
+			sourceTree = "<group>";
+		};
+		5EEE8D6F1F38AE2B00C5FD4B /* NewVideos */ = {
+			isa = PBXGroup;
+			children = (
+				5EED45921F449CEF00032C05 /* TableViewControllerNew.swift */,
+			);
+			path = NewVideos;
+			sourceTree = "<group>";
+		};
+		5EEE8D701F38AE3800C5FD4B /* FollowVideos */ = {
+			isa = PBXGroup;
+			children = (
+				5E476F371F72A6250057A42C /* TableViewControllerFollow.swift */,
+			);
+			path = FollowVideos;
+			sourceTree = "<group>";
+		};
+		5EFCE20F1F308DBE008CAF5D = {
+			isa = PBXGroup;
+			children = (
+				5EFCE21A1F308DBE008CAF5D /* VidMe */,
+				5EFCE2191F308DBE008CAF5D /* Products */,
+				5EFCE2321F30B954008CAF5D /* Frameworks */,
+				8C8D06B2BFB0DECB7ABD415E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5EFCE2191F308DBE008CAF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EFCE2181F308DBE008CAF5D /* VidMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EFCE21A1F308DBE008CAF5D /* VidMe */ = {
+			isa = PBXGroup;
+			children = (
+				5EED45BD1F4708FB00032C05 /* VidMe.swift */,
+				5EFCE21B1F308DBE008CAF5D /* AppDelegate.swift */,
+				5E78D5601F4B6C3F00B9C8FC /* DataBase.swift */,
+				5E17D2A81F3DD82C00DC9ECF /* Constants.swift */,
+				5EFCE21D1F308DBE008CAF5D /* ViewController.swift */,
+				5EED458C1F431F3700032C05 /* HttpOperation.swift */,
+				5EED45901F43282900032C05 /* Structure.swift */,
+				5EED458E1F4320FD00032C05 /* JsonOperation.swift */,
+				5EFCE21F1F308DBE008CAF5D /* Main.storyboard */,
+				5E78D55F1F4B6BED00B9C8FC /* DataBase */,
+				5EEE8D6F1F38AE2B00C5FD4B /* NewVideos */,
+				5EEE8D6E1F38AD4B00C5FD4B /* FeaturedVideos */,
+				5EEE8D701F38AE3800C5FD4B /* FollowVideos */,
+				5EEE8D6C1F38AC8800C5FD4B /* RegisterViewController.swift */,
+				5EED458B1F419BCB00032C05 /* Xib */,
+				5E17D2AC1F3DF6AA00DC9ECF /* LogOutView.swift */,
+				5EED45851F3F983600032C05 /* VideoListView.swift */,
+				5EED45891F41982700032C05 /* VideoCell.swift */,
+				5EFCE2251F308DBE008CAF5D /* Assets.xcassets */,
+				5EEE8D711F39AFE900C5FD4B /* ninja_swift.png */,
+				5EFCE2271F308DBE008CAF5D /* LaunchScreen.storyboard */,
+				5EED45C31F47196600032C05 /* VidMe.xcdatamodel */,
+				5EEE8D731F39B09E00C5FD4B /* vidme-logo-big.png */,
+				5E476F3B1F8BB4800057A42C /* help.strings */,
+				5EFCE22A1F308DBE008CAF5D /* Info.plist */,
+			);
+			path = VidMe;
+			sourceTree = "<group>";
+		};
+		5EFCE2321F30B954008CAF5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EFCE2331F30B954008CAF5D /* AVFoundation.framework */,
+				5EFCE2341F30B954008CAF5D /* AVKit.framework */,
+				37A8E60E6024BB242C6DCB7E /* Pods_VidMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C8D06B2BFB0DECB7ABD415E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FC31CF86DD7664DBDEFEB5D /* Pods-VidMe.debug.xcconfig */,
+				293CF013666759A1A57A7CE3 /* Pods-VidMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EFCE2171F308DBE008CAF5D /* VidMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFCE22D1F308DBE008CAF5D /* Build configuration list for PBXNativeTarget "VidMe" */;
+			buildPhases = (
+				ADCA1F550931F6B7F6E45545 /* [CP] Check Pods Manifest.lock */,
+				5EFCE2141F308DBE008CAF5D /* Sources */,
+				5EFCE2151F308DBE008CAF5D /* Frameworks */,
+				5EFCE2161F308DBE008CAF5D /* Resources */,
+				FDBDB4638AD439794E587D7C /* [CP] Embed Pods Frameworks */,
+				8328C5E42AADF8DD885CC058 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VidMe;
+			productName = VidMe;
+			productReference = 5EFCE2181F308DBE008CAF5D /* VidMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EFCE2101F308DBE008CAF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LIV;
+				TargetAttributes = {
+					5EFCE2171F308DBE008CAF5D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 26QN646B83;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5EFCE2131F308DBE008CAF5D /* Build configuration list for PBXProject "VidMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EFCE20F1F308DBE008CAF5D;
+			productRefGroup = 5EFCE2191F308DBE008CAF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EFCE2171F308DBE008CAF5D /* VidMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EFCE2161F308DBE008CAF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEE8D741F39B09E00C5FD4B /* vidme-logo-big.png in Resources */,
+				5EFCE2291F308DBE008CAF5D /* LaunchScreen.storyboard in Resources */,
+				5EED45821F3E7EC400032C05 /* LogOutView.xib in Resources */,
+				5EFCE2261F308DBE008CAF5D /* Assets.xcassets in Resources */,
+				5EED45881F4195F300032C05 /* VideoCell.xib in Resources */,
+				5E476F3C1F8BB4800057A42C /* help.strings in Resources */,
+				5EEE8D721F39AFE900C5FD4B /* ninja_swift.png in Resources */,
+				5EFCE2211F308DBE008CAF5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8328C5E42AADF8DD885CC058 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidMe/Pods-VidMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADCA1F550931F6B7F6E45545 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDBDB4638AD439794E587D7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VidMe/Pods-VidMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EFCE2141F308DBE008CAF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFCE21E1F308DBE008CAF5D /* ViewController.swift in Sources */,
+				5EED45C41F47196600032C05 /* VidMe.xcdatamodel in Sources */,
+				5EED458A1F41982700032C05 /* VideoCell.swift in Sources */,
+				5E78D5631F4B75D800B9C8FC /* videosRealm.swift in Sources */,
+				5E17D2A91F3DD82C00DC9ECF /* Constants.swift in Sources */,
+				5EEE8D6D1F38AC8800C5FD4B /* RegisterViewController.swift in Sources */,
+				5EED45BF1F4708FB00032C05 /* VidMe.swift in Sources */,
+				5E476F381F72A6250057A42C /* TableViewControllerFollow.swift in Sources */,
+				5EED45931F449CEF00032C05 /* TableViewControllerNew.swift in Sources */,
+				5E476F3A1F87BBCA0057A42C /* TableViewControllerTop.swift in Sources */,
+				5EED45861F3F983600032C05 /* VideoListView.swift in Sources */,
+				5E78D5611F4B6C3F00B9C8FC /* DataBase.swift in Sources */,
+				5EED458F1F4320FD00032C05 /* JsonOperation.swift in Sources */,
+				5E17D2AD1F3DF6AA00DC9ECF /* LogOutView.swift in Sources */,
+				5EED45911F43282900032C05 /* Structure.swift in Sources */,
+				5EED458D1F431F3700032C05 /* HttpOperation.swift in Sources */,
+				5EFCE21C1F308DBE008CAF5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EFCE21F1F308DBE008CAF5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFCE2201F308DBE008CAF5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EFCE2271F308DBE008CAF5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFCE2281F308DBE008CAF5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EFCE22B1F308DBE008CAF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				"MTL_ENABLE_DEBUG_INFO[sdk=iphonesimulator*]" = disable;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EFCE22C1F308DBE008CAF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EFCE22E1F308DBE008CAF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC31CF86DD7664DBDEFEB5D /* Pods-VidMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26QN646B83;
+				INFOPLIST_FILE = VidMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LIV.VidMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5EFCE22F1F308DBE008CAF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293CF013666759A1A57A7CE3 /* Pods-VidMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26QN646B83;
+				INFOPLIST_FILE = VidMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LIV.VidMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EFCE2131F308DBE008CAF5D /* Build configuration list for PBXProject "VidMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFCE22B1F308DBE008CAF5D /* Debug */,
+				5EFCE22C1F308DBE008CAF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFCE22D1F308DBE008CAF5D /* Build configuration list for PBXNativeTarget "VidMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFCE22E1F308DBE008CAF5D /* Debug */,
+				5EFCE22F1F308DBE008CAF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EFCE2101F308DBE008CAF5D /* Project object */;
+}
