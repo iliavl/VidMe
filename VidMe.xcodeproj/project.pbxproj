@@ -47,7 +47,7 @@
 		5E476F391F87BBCA0057A42C /* TableViewControllerTop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewControllerTop.swift; path = ../TableViewControllerTop.swift; sourceTree = "<group>"; };
 		5E476F3B1F8BB4800057A42C /* help.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = help.strings; sourceTree = "<group>"; };
 		5E78D5601F4B6C3F00B9C8FC /* DataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
-		5E78D5621F4B75D800B9C8FC /* videosRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = videosRealm.swift; path = ../videosRealm.swift; sourceTree = "<group>"; };
+		5E78D5621F4B75D800B9C8FC /* videosRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videosRealm.swift; sourceTree = "<group>"; };
 		5EED45811F3E7EC400032C05 /* LogOutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogOutView.xib; path = ../LogOutView.xib; sourceTree = "<group>"; };
 		5EED45851F3F983600032C05 /* VideoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 		5EED45871F4195F300032C05 /* VideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VideoCell.xib; path = ../VideoCell.xib; sourceTree = "<group>"; };
