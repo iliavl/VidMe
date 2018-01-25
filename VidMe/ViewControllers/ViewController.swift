@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         
     }
 
+    // !!! Tung: такие классы лучше удалять. или переименовать в название понятное)) 
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "TabBarSegue" {

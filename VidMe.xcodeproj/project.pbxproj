@@ -9,26 +9,26 @@
 /* Begin PBXBuildFile section */
 		5E17D2A91F3DD82C00DC9ECF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17D2A81F3DD82C00DC9ECF /* Constants.swift */; };
 		5E17D2AD1F3DF6AA00DC9ECF /* LogOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17D2AC1F3DF6AA00DC9ECF /* LogOutView.swift */; };
-		5E476F381F72A6250057A42C /* TableViewControllerFollow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E476F371F72A6250057A42C /* TableViewControllerFollow.swift */; };
-		5E476F3A1F87BBCA0057A42C /* TableViewControllerTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E476F391F87BBCA0057A42C /* TableViewControllerTop.swift */; };
 		5E476F3C1F8BB4800057A42C /* help.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E476F3B1F8BB4800057A42C /* help.strings */; };
 		5E78D5611F4B6C3F00B9C8FC /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E78D5601F4B6C3F00B9C8FC /* DataBase.swift */; };
 		5E78D5631F4B75D800B9C8FC /* videosRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E78D5621F4B75D800B9C8FC /* videosRealm.swift */; };
+		5ED268D82018ECAD0006C9C4 /* JsonOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED268D72018ECAD0006C9C4 /* JsonOperation.swift */; };
+		5ED268DA2018F4090006C9C4 /* HttpOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED268D92018F4090006C9C4 /* HttpOperation.swift */; };
+		5ED268E0201A037F0006C9C4 /* ninja_swift.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED268DF201A037F0006C9C4 /* ninja_swift.png */; };
+		5ED268E2201A03940006C9C4 /* vidme-logo-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED268E1201A03940006C9C4 /* vidme-logo-big.png */; };
+		5ED268EA201A05F70006C9C4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED268E5201A05F70006C9C4 /* RegisterViewController.swift */; };
+		5ED268EB201A05F70006C9C4 /* TableViewControllerFollow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED268E6201A05F70006C9C4 /* TableViewControllerFollow.swift */; };
+		5ED268EC201A05F70006C9C4 /* TableViewControllerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED268E7201A05F70006C9C4 /* TableViewControllerNew.swift */; };
+		5ED268ED201A05F70006C9C4 /* TableViewControllerTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED268E8201A05F70006C9C4 /* TableViewControllerTop.swift */; };
+		5ED268EE201A05F70006C9C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED268E9201A05F70006C9C4 /* ViewController.swift */; };
 		5EED45821F3E7EC400032C05 /* LogOutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EED45811F3E7EC400032C05 /* LogOutView.xib */; };
 		5EED45861F3F983600032C05 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45851F3F983600032C05 /* VideoListView.swift */; };
 		5EED45881F4195F300032C05 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EED45871F4195F300032C05 /* VideoCell.xib */; };
 		5EED458A1F41982700032C05 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45891F41982700032C05 /* VideoCell.swift */; };
-		5EED458D1F431F3700032C05 /* HttpOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED458C1F431F3700032C05 /* HttpOperation.swift */; };
-		5EED458F1F4320FD00032C05 /* JsonOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED458E1F4320FD00032C05 /* JsonOperation.swift */; };
 		5EED45911F43282900032C05 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45901F43282900032C05 /* Structure.swift */; };
-		5EED45931F449CEF00032C05 /* TableViewControllerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45921F449CEF00032C05 /* TableViewControllerNew.swift */; };
 		5EED45BF1F4708FB00032C05 /* VidMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45BD1F4708FB00032C05 /* VidMe.swift */; };
 		5EED45C41F47196600032C05 /* VidMe.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 5EED45C31F47196600032C05 /* VidMe.xcdatamodel */; };
-		5EEE8D6D1F38AC8800C5FD4B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE8D6C1F38AC8800C5FD4B /* RegisterViewController.swift */; };
-		5EEE8D721F39AFE900C5FD4B /* ninja_swift.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EEE8D711F39AFE900C5FD4B /* ninja_swift.png */; };
-		5EEE8D741F39B09E00C5FD4B /* vidme-logo-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EEE8D731F39B09E00C5FD4B /* vidme-logo-big.png */; };
 		5EFCE21C1F308DBE008CAF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCE21B1F308DBE008CAF5D /* AppDelegate.swift */; };
-		5EFCE21E1F308DBE008CAF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCE21D1F308DBE008CAF5D /* ViewController.swift */; };
 		5EFCE2211F308DBE008CAF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFCE21F1F308DBE008CAF5D /* Main.storyboard */; };
 		5EFCE2261F308DBE008CAF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFCE2251F308DBE008CAF5D /* Assets.xcassets */; };
 		5EFCE2291F308DBE008CAF5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFCE2271F308DBE008CAF5D /* LaunchScreen.storyboard */; };
@@ -43,27 +43,27 @@
 		37A8E60E6024BB242C6DCB7E /* Pods_VidMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VidMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E17D2A81F3DD82C00DC9ECF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5E17D2AC1F3DF6AA00DC9ECF /* LogOutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutView.swift; sourceTree = "<group>"; };
-		5E476F371F72A6250057A42C /* TableViewControllerFollow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewControllerFollow.swift; path = ../TableViewControllerFollow.swift; sourceTree = "<group>"; };
-		5E476F391F87BBCA0057A42C /* TableViewControllerTop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewControllerTop.swift; path = ../TableViewControllerTop.swift; sourceTree = "<group>"; };
 		5E476F3B1F8BB4800057A42C /* help.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = help.strings; sourceTree = "<group>"; };
 		5E78D5601F4B6C3F00B9C8FC /* DataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 		5E78D5621F4B75D800B9C8FC /* videosRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videosRealm.swift; sourceTree = "<group>"; };
-		5EED45811F3E7EC400032C05 /* LogOutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogOutView.xib; path = ../LogOutView.xib; sourceTree = "<group>"; };
+		5ED268D72018ECAD0006C9C4 /* JsonOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonOperation.swift; sourceTree = "<group>"; };
+		5ED268D92018F4090006C9C4 /* HttpOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpOperation.swift; sourceTree = "<group>"; };
+		5ED268DF201A037F0006C9C4 /* ninja_swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninja_swift.png; sourceTree = "<group>"; };
+		5ED268E1201A03940006C9C4 /* vidme-logo-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vidme-logo-big.png"; sourceTree = "<group>"; };
+		5ED268E5201A05F70006C9C4 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5ED268E6201A05F70006C9C4 /* TableViewControllerFollow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerFollow.swift; sourceTree = "<group>"; };
+		5ED268E7201A05F70006C9C4 /* TableViewControllerNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerNew.swift; sourceTree = "<group>"; };
+		5ED268E8201A05F70006C9C4 /* TableViewControllerTop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerTop.swift; sourceTree = "<group>"; };
+		5ED268E9201A05F70006C9C4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EED45811F3E7EC400032C05 /* LogOutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogOutView.xib; sourceTree = "<group>"; };
 		5EED45851F3F983600032C05 /* VideoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
-		5EED45871F4195F300032C05 /* VideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VideoCell.xib; path = ../VideoCell.xib; sourceTree = "<group>"; };
+		5EED45871F4195F300032C05 /* VideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
 		5EED45891F41982700032C05 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
-		5EED458C1F431F3700032C05 /* HttpOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpOperation.swift; sourceTree = "<group>"; };
-		5EED458E1F4320FD00032C05 /* JsonOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonOperation.swift; sourceTree = "<group>"; };
 		5EED45901F43282900032C05 /* Structure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
-		5EED45921F449CEF00032C05 /* TableViewControllerNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewControllerNew.swift; path = ../TableViewControllerNew.swift; sourceTree = "<group>"; };
 		5EED45BD1F4708FB00032C05 /* VidMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VidMe.swift; sourceTree = "<group>"; };
 		5EED45C31F47196600032C05 /* VidMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = VidMe.xcdatamodel; path = VidMe.xcdatamodeld/VidMe.xcdatamodel; sourceTree = "<group>"; };
-		5EEE8D6C1F38AC8800C5FD4B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		5EEE8D711F39AFE900C5FD4B /* ninja_swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninja_swift.png; sourceTree = "<group>"; };
-		5EEE8D731F39B09E00C5FD4B /* vidme-logo-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vidme-logo-big.png"; sourceTree = "<group>"; };
 		5EFCE2181F308DBE008CAF5D /* VidMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFCE21B1F308DBE008CAF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EFCE21D1F308DBE008CAF5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EFCE2201F308DBE008CAF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EFCE2251F308DBE008CAF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EFCE2281F308DBE008CAF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -94,6 +94,36 @@
 			path = DataBase;
 			sourceTree = "<group>";
 		};
+		5ED268D22018E6330006C9C4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5ED268D72018ECAD0006C9C4 /* JsonOperation.swift */,
+				5ED268D92018F4090006C9C4 /* HttpOperation.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5ED268DE201A036E0006C9C4 /* PicturesVidme */ = {
+			isa = PBXGroup;
+			children = (
+				5ED268DF201A037F0006C9C4 /* ninja_swift.png */,
+				5ED268E1201A03940006C9C4 /* vidme-logo-big.png */,
+			);
+			path = PicturesVidme;
+			sourceTree = "<group>";
+		};
+		5ED268E3201A04740006C9C4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5ED268E5201A05F70006C9C4 /* RegisterViewController.swift */,
+				5ED268E6201A05F70006C9C4 /* TableViewControllerFollow.swift */,
+				5ED268E7201A05F70006C9C4 /* TableViewControllerNew.swift */,
+				5ED268E8201A05F70006C9C4 /* TableViewControllerTop.swift */,
+				5ED268E9201A05F70006C9C4 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		5EED458B1F419BCB00032C05 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,30 +131,6 @@
 				5EED45871F4195F300032C05 /* VideoCell.xib */,
 			);
 			path = Xib;
-			sourceTree = "<group>";
-		};
-		5EEE8D6E1F38AD4B00C5FD4B /* FeaturedVideos */ = {
-			isa = PBXGroup;
-			children = (
-				5E476F391F87BBCA0057A42C /* TableViewControllerTop.swift */,
-			);
-			path = FeaturedVideos;
-			sourceTree = "<group>";
-		};
-		5EEE8D6F1F38AE2B00C5FD4B /* NewVideos */ = {
-			isa = PBXGroup;
-			children = (
-				5EED45921F449CEF00032C05 /* TableViewControllerNew.swift */,
-			);
-			path = NewVideos;
-			sourceTree = "<group>";
-		};
-		5EEE8D701F38AE3800C5FD4B /* FollowVideos */ = {
-			isa = PBXGroup;
-			children = (
-				5E476F371F72A6250057A42C /* TableViewControllerFollow.swift */,
-			);
-			path = FollowVideos;
 			sourceTree = "<group>";
 		};
 		5EFCE20F1F308DBE008CAF5D = {
@@ -148,29 +154,23 @@
 		5EFCE21A1F308DBE008CAF5D /* VidMe */ = {
 			isa = PBXGroup;
 			children = (
+				5ED268E3201A04740006C9C4 /* ViewControllers */,
 				5EED45BD1F4708FB00032C05 /* VidMe.swift */,
 				5EFCE21B1F308DBE008CAF5D /* AppDelegate.swift */,
-				5E78D5601F4B6C3F00B9C8FC /* DataBase.swift */,
 				5E17D2A81F3DD82C00DC9ECF /* Constants.swift */,
-				5EFCE21D1F308DBE008CAF5D /* ViewController.swift */,
-				5EED458C1F431F3700032C05 /* HttpOperation.swift */,
+				5E78D5601F4B6C3F00B9C8FC /* DataBase.swift */,
+				5ED268D22018E6330006C9C4 /* Network */,
 				5EED45901F43282900032C05 /* Structure.swift */,
-				5EED458E1F4320FD00032C05 /* JsonOperation.swift */,
 				5EFCE21F1F308DBE008CAF5D /* Main.storyboard */,
 				5E78D55F1F4B6BED00B9C8FC /* DataBase */,
-				5EEE8D6F1F38AE2B00C5FD4B /* NewVideos */,
-				5EEE8D6E1F38AD4B00C5FD4B /* FeaturedVideos */,
-				5EEE8D701F38AE3800C5FD4B /* FollowVideos */,
-				5EEE8D6C1F38AC8800C5FD4B /* RegisterViewController.swift */,
 				5EED458B1F419BCB00032C05 /* Xib */,
 				5E17D2AC1F3DF6AA00DC9ECF /* LogOutView.swift */,
 				5EED45851F3F983600032C05 /* VideoListView.swift */,
 				5EED45891F41982700032C05 /* VideoCell.swift */,
 				5EFCE2251F308DBE008CAF5D /* Assets.xcassets */,
-				5EEE8D711F39AFE900C5FD4B /* ninja_swift.png */,
 				5EFCE2271F308DBE008CAF5D /* LaunchScreen.storyboard */,
 				5EED45C31F47196600032C05 /* VidMe.xcdatamodel */,
-				5EEE8D731F39B09E00C5FD4B /* vidme-logo-big.png */,
+				5ED268DE201A036E0006C9C4 /* PicturesVidme */,
 				5E476F3B1F8BB4800057A42C /* help.strings */,
 				5EFCE22A1F308DBE008CAF5D /* Info.plist */,
 			);
@@ -259,13 +259,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EEE8D741F39B09E00C5FD4B /* vidme-logo-big.png in Resources */,
 				5EFCE2291F308DBE008CAF5D /* LaunchScreen.storyboard in Resources */,
 				5EED45821F3E7EC400032C05 /* LogOutView.xib in Resources */,
 				5EFCE2261F308DBE008CAF5D /* Assets.xcassets in Resources */,
 				5EED45881F4195F300032C05 /* VideoCell.xib in Resources */,
+				5ED268E2201A03940006C9C4 /* vidme-logo-big.png in Resources */,
 				5E476F3C1F8BB4800057A42C /* help.strings in Resources */,
-				5EEE8D721F39AFE900C5FD4B /* ninja_swift.png in Resources */,
+				5ED268E0201A037F0006C9C4 /* ninja_swift.png in Resources */,
 				5EFCE2211F308DBE008CAF5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,23 +325,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EFCE21E1F308DBE008CAF5D /* ViewController.swift in Sources */,
 				5EED45C41F47196600032C05 /* VidMe.xcdatamodel in Sources */,
+				5ED268ED201A05F70006C9C4 /* TableViewControllerTop.swift in Sources */,
 				5EED458A1F41982700032C05 /* VideoCell.swift in Sources */,
 				5E78D5631F4B75D800B9C8FC /* videosRealm.swift in Sources */,
 				5E17D2A91F3DD82C00DC9ECF /* Constants.swift in Sources */,
-				5EEE8D6D1F38AC8800C5FD4B /* RegisterViewController.swift in Sources */,
 				5EED45BF1F4708FB00032C05 /* VidMe.swift in Sources */,
-				5E476F381F72A6250057A42C /* TableViewControllerFollow.swift in Sources */,
-				5EED45931F449CEF00032C05 /* TableViewControllerNew.swift in Sources */,
-				5E476F3A1F87BBCA0057A42C /* TableViewControllerTop.swift in Sources */,
 				5EED45861F3F983600032C05 /* VideoListView.swift in Sources */,
+				5ED268DA2018F4090006C9C4 /* HttpOperation.swift in Sources */,
 				5E78D5611F4B6C3F00B9C8FC /* DataBase.swift in Sources */,
-				5EED458F1F4320FD00032C05 /* JsonOperation.swift in Sources */,
+				5ED268EE201A05F70006C9C4 /* ViewController.swift in Sources */,
 				5E17D2AD1F3DF6AA00DC9ECF /* LogOutView.swift in Sources */,
 				5EED45911F43282900032C05 /* Structure.swift in Sources */,
-				5EED458D1F431F3700032C05 /* HttpOperation.swift in Sources */,
+				5ED268EA201A05F70006C9C4 /* RegisterViewController.swift in Sources */,
 				5EFCE21C1F308DBE008CAF5D /* AppDelegate.swift in Sources */,
+				5ED268EC201A05F70006C9C4 /* TableViewControllerNew.swift in Sources */,
+				5ED268EB201A05F70006C9C4 /* TableViewControllerFollow.swift in Sources */,
+				5ED268D82018ECAD0006C9C4 /* JsonOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

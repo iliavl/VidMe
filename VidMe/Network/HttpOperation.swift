@@ -21,6 +21,7 @@ class HttpOperation: NSObject {
             print(response?.suggestedFilename ?? url.lastPathComponent)
             print("Download Finished")
             DispatchQueue.main.async() { () -> Void in
+                // !!! Tung: ого)) нельзя селу передавать сюда) картинку надо назад отдавать в класс и там присваивать селле. вью контроллер должен это делать. вызывать метод configure with image какой-то
                 cell.imageThumbnail.image = UIImage(data: data)!
             }
         }
@@ -53,6 +54,7 @@ class HttpOperation: NSObject {
             headers[authorizationHeader.key] = authorizationHeader.value
             headers["AccessToken"] = Constants.shared.accessToken
         }
+        // !!! Tung: все комменты старайся удалять если не нужны уже
 //        .POST, "http://myserver.com", parameters: parameters, encoding: .JSON
 //        Alamofire.request(url!, .post, headers: headers).validate(statusCode: 200..<600)
 //        Alamofire.request(<#T##url: URLConvertible##URLConvertible#>, method: <#T##HTTPMethod#>, parameters: <#T##Parameters?#>, encoding: <#T##ParameterEncoding#>, headers: <#T##HTTPHeaders?#>)
@@ -91,6 +93,8 @@ class HttpOperation: NSObject {
         UserDefaults.standard.setValue(username, forKey: "username")
         UserDefaults.standard.setValue(password, forKey: "password")
         UserDefaults.standard.setValue(access, forKey: "access")
+
+        // !!! Tung: а зачем ты эти значения записал и туда и туда?
 
         print("logout")
     }
